@@ -126,6 +126,7 @@ services:
       - DB_REPLICA_HOST=${OPERACIONES_DB_REPLICA_HOST}
       - DB_REPLICA_PORT=${OPERACIONES_DB_REPLICA_PORT}
       - JWT_SECRET=${JWT_SECRET}
+      - PORT=3000
     ports:
       - "3000:3000"
     networks:
